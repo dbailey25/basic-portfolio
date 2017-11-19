@@ -120,7 +120,7 @@ z-index: -1;
 .masterContainer {
   position: relative;
   /*min-height:100%;*/
-  height: 860px;
+  height: 940px;
   z-index: -1;
 }
 
@@ -230,14 +230,3 @@ position: relative;
 .top {
   z-index: 1 !important;
 }
-
-/*temp styles*/
-/*.test {
-  margin-top: 10px;
-background-color: blue;
-}*/
-
-/*.test2 {
-  margin-top: 10px;
-background-color: red;
-}*/
