@@ -1,7 +1,8 @@
 {
-    "name": "basic-portfolio",
-    "version": "1.0.0",
-    "description": "About me",
+    "title": "Freelancer",
+    "name": "startbootstrap-freelancer",
+    "version": "4.0.0",
+    "description": "A freelancer portfolio HTML theme for Bootstrap.",
     "keywords": [
         "css",
         "sass",
