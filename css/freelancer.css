@@ -10,6 +10,7 @@ h5,
 h6 {
   font-weight: 700;
   font-family: 'Montserrat';
+  color: #848484;
 }
 
 hr.star-light,
@@ -40,15 +41,16 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #18BC9C;
+  background-color: #f9fbff;
 }
 
 hr.star-dark {
-  border-color: #2C3E50;
+  border-color: #fcfcfc;
 }
 
 hr.star-dark:after {
-  color: #2C3E50;
+  /* color: #2C3E50; */
+  color: #fcfcfc;
   background-color: white;
 }
 
@@ -115,7 +117,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #18BC9C;
+  color: #c9c9c9;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -123,7 +125,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #18BC9C;
+  color: #f9fbff;
 }
 
 #mainNav .navbar-toggler {
@@ -149,13 +151,15 @@ section h2 {
     margin-top: 0;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-    color: #fff;
-    background: #18BC9C;
-  }
+    color: #547082;
+    background: #f9fbff;
+    opacity: .5;
+}
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-    color: #fff;
-    background: #18BC9C;
-  }
+    color: #547082;
+    background: #f9fbff;
+    opacity: .5;
+}
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -227,8 +231,8 @@ header.masthead h2 {
   padding-bottom: 5px;
 }
 
-.white {
-  color: white;
+.about-link {
+  color: #848484;
   text-decoration: underline;
 }
 
@@ -328,7 +332,7 @@ header.masthead h2 {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #18BC9C;
+  color: #f9fbff;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -347,7 +351,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 a {
-  color: #18BC9C;
+  color: #f9fbff;
 }
 
 a:focus, a:hover, a:active {
@@ -359,24 +363,25 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #18BC9C !important;
+  background-color: #f9fbff !important;
 }
 
 .bg-secondary {
-  background-color: #2C3E50 !important;
+  /* background-color: #2C3E50 !important; */
+  background-image: url("../img/blue-sky.jpg")!important;
 }
 
 .text-primary {
-  color: #18BC9C !important;
+  color: #f9fbff !important;
 }
 
 .text-secondary {
-  color: #2C3E50 !important;
+  /* color: #2C3E50 !important; */
 }
 
 .btn-primary {
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+  background-color: #f9fbff;
+  border-color: #f9fbff;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
@@ -441,16 +446,26 @@ a:focus, a:hover, a:active {
   margin: 15px 0 15px 0;
 }
 
+.socialBtnBar {
+  height: 50px;
+  width: 255px;
+  margin: 0 auto;
+}
+
 .socialBtn1 {
   float: left;
 }
 
 .socialBtn2 {
   float: left;
-  margin-left: 45px;
+  margin-left: 52px;
 }
 
 .socialBtnSize {
-  height: 150px;
-  width: 150px;
+  height: 50px;
+  width: 50px;
+}
+
+.about-text {
+  color: #848484;
 }
