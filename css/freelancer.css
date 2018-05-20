@@ -206,7 +206,7 @@ header.masthead h2 {
   position: relative;
   display: block;
   max-width: 25rem;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
 }
 
 .portfolio .portfolio-item .portfolio-item-caption {
@@ -245,7 +245,7 @@ header.masthead h2 {
     margin-bottom: -30px;
   }
   .portfolio .portfolio-item {
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
   }
 }
 
@@ -468,4 +468,37 @@ a:focus, a:hover, a:active {
 
 .about-text {
   color: #848484;
+}
+
+
+
+
+.proj-description {
+    height: 20px;
+    overflow: hidden;
+}
+.proj-description-container {
+    position: relative;
+    margin-bottom: 35px;
+}
+label {
+    position: absolute;
+    top: 100%;
+}
+input {
+    display: none;
+}
+label:after {
+    content: "Show More";
+}
+input:checked + label:after {
+    content: "Show Less";
+}
+input:checked ~ div {
+    height: 100%;
+}
+
+.project-item {
+  width: 400px;
+  margin: 0 auto;
 }
