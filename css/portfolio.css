@@ -68,6 +68,11 @@ section h2 {
     font-size: 3rem;
     line-height: 2.5rem;
   }
+
+  /* .project-item {
+    width: 350px;
+    margin: 0 auto;
+  } */
 }
 
 .btn-xl {
@@ -351,7 +356,8 @@ form .row:first-child .floating-label-form-group {
 }
 
 a {
-  color: #f9fbff;
+  /* color: #f9fbff; */
+  color: #0794b2;
 }
 
 a:focus, a:hover, a:active {
@@ -364,6 +370,7 @@ a:focus, a:hover, a:active {
 
 .bg-primary {
   background-color: #f9fbff !important;
+  box-shadow: 5px 5px 5px #888888;
 }
 
 .bg-secondary {
@@ -454,11 +461,15 @@ a:focus, a:hover, a:active {
 
 .socialBtn1 {
   float: left;
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px #888888;
 }
 
 .socialBtn2 {
   float: left;
   margin-left: 52px;
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px #888888;
 }
 
 .socialBtnSize {
@@ -477,6 +488,7 @@ a:focus, a:hover, a:active {
     height: 20px;
     overflow: hidden;
 }
+
 .proj-description-container {
     position: relative;
     margin-bottom: 35px;
@@ -484,6 +496,7 @@ a:focus, a:hover, a:active {
 label {
     position: absolute;
     top: 100%;
+    font-style: italic;
 }
 input {
     display: none;
@@ -499,6 +512,11 @@ input:checked ~ div {
 }
 
 .project-item {
-  width: 400px;
-  margin: 0 auto;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto 30px;
+  border: 1px solid #bcbcbc;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 5px 5px 5px #888888;
 }
